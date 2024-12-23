@@ -1,0 +1,114 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(/foto/Black\ Cat\ On\ Screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px ;
+}
+
+span {
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+i {
+    position: relative;
+    top: -48px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 45px;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+} 
+
+.submit:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.right a {
+    color: #fff;
+    text-decoration: none;
+}
